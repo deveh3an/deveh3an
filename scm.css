@@ -1,0 +1,82 @@
+/*
+--- سورس کده ---
+# Author: @DevMrMmd
+# Channel: @Source_Kade
+
+*/
+@media screen and (max-width: 1200px) {
+    #main {
+        width: 70%;
+        margin: 1.5em 15% 1.5em 15%;
+    }
+}
+@media screen and (max-width: 900px) {
+    #main {
+        width: 80%;
+        margin: 1.5em 10% 1.5em 10%;
+    }
+    .links-item {
+        width: 50%;
+        margin: .25em 0 .25em 0;
+    }
+}
+@media screen and (max-width: 750px) {
+    #main {
+        width: 90%;
+        margin: 1em 5% 1em 5%;
+    }
+    .links-item {
+        width: 50%;
+        margin: .25em 0 .25em 0;
+    }
+}
+@media screen and (max-width: 650px) {
+    #main {
+        width: 90%;
+        margin: 1em 5% 1em 5%;
+    }
+    .links-item {
+        width: 50%;
+        margin: .25em 0 .25em 0;
+        font-size: .9em;
+    }
+}
+@media screen and (max-width: 580px) {
+    #main {
+        width: 90%;
+        margin: 1em 5% 1em 5%;
+    }
+    .links-item {
+        width: 100%;
+        font-size: 1.15em;
+    }
+}
+@media screen and (max-width: 420px) {
+    #header {
+        height: 4em;
+    }
+    #header > img {
+        width: 3.5em;
+        height: 3.5em;
+        border-radius: 100%;
+        margin: .75em 1.75em .75em 1em;
+    }
+    #header > span {
+        font-size: 1.5em;
+        font-family: "Vazirmatn";
+        font-weight: 900;
+        margin-top: 1em;
+    }
+    #caption > span {
+        font-size: 1em;
+    }
+    .langs-item {
+        width: 46%;
+        margin: .65em 2% .65em 2%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .langs-item > span {
+        font-size: .9em;
+    }
+}
